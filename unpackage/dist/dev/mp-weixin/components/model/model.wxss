@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.userModel {
+  z-index: 9999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.userModel .cont {
+  width: 520rpx;
+  padding: 0px 0 50rpx 0;
+  background-color: #FFFFFF;
+  border-radius: 32rpx;
+}
+.userModel .cont image {
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: -60rpx;
+  margin-bottom: 40rpx;
+}
+.userModel .cont .text {
+  line-height: 46rpx;
+}
+.userModel .cont .btn {
+  position: relative;
+  margin-top: 50rpx;
+  color: #FFFFFF;
+  width: 60%;
+  line-height: 80rpx;
+  border-radius: 80rpx;
+  background-image: linear-gradient(to bottom right, #fce03d, #f8c93c);
+}
+.userModel .cont .no {
+  color: #B8B8B8;
+}
+.num {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f8c93c;
+  padding: 0 8rpx;
+}
+.adClass {
+  -webkit-animation: tiaobig 1.2s ease-in-out alternate infinite;
+          animation: tiaobig 1.2s ease-in-out alternate infinite;
+}
+@-webkit-keyframes tiaobig {
+25% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+50% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+75% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+100% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+}
+@keyframes tiaobig {
+25% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+50% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+75% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+100% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+}
+

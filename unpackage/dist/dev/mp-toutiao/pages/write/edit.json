@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "编辑",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "default",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-form": "/uview-ui/components/u-form/u-form",
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "u-form-item": "/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-radio-group": "/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uview-ui/components/u-radio/u-radio"
+  }
+}

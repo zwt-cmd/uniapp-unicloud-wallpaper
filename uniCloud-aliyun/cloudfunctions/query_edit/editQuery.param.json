@@ -1,0 +1,22 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{
+	"dbName": "wx_cover",	"filter": {
+		"_id": "28ee4e3e6013796501a322834355abf5"
+	},
+	"upData": {
+		"category_id": "28ee4e3e600f7c71010b02af6258ad6f",
+		"category_pid": "3b020ca3600f7c0100e47a075876036d",
+		"cover_ble": "https://756e-unib5717f6-948526-1302600935.tcb.qcloud.la/070614084290347.png",
+		"cover_img": "https://756e-unib5717f6-948526-1302600935.tcb.qcloud.la/49219603044985294.jpg",
+		"cover_integral": 1234,
+		"cover_mode": 1,
+		"cover_nice": 0,
+		"cover_tags": "",
+		"cover_title": "123123",
+		"cover_view": 0,
+		"time": 1611888997049,
+		"status": 1,
+		"user_id": "28ee4e3e6012b08801906d8611f7ead4"
+	}
+}

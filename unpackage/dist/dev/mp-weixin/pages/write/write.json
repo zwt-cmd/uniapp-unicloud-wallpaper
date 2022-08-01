@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "投稿",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "models": "/components/model/model"
+  }
+}

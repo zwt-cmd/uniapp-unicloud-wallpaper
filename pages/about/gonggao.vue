@@ -1,0 +1,55 @@
+<template>
+	<view>
+	<view class="u-p-40">
+			<view class="title">1.前序</view>
+			<view class="cont">
+				本小程序由壁zhi库开发维护，旨在为广大网友提供最新最潮的手机壁纸！一款产品的发展离不开大家的支持，如果“壁zhi库”提供的墙纸/壁纸，能够获得您的青睐，请不要忘记将“壁zhi库”推荐给您身边的朋友！另外“壁zhi库”的内容均来源于网络，若不慎侵犯到您的合法权益，请及时与我们联系！
+			</view>
+			<view class="dcont">
+			如果喜欢本小程序，可以联系我们代为搭建！
+			</view>			
+			<view class="title">2.关于作者</view>
+			<view class="cont">
+				一个专业前后端开发老枪手
+			</view>
+			<view class="title">3.联系方式</view>
+			<view class="cont">
+				微信客服：17729744485<br><br>
+				电子邮箱：1909118034@qq.com<br><br>
+			</view>
+			<ad-custom unit-id="adunit-8aba3702eaa4804f"></ad-custom>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+	.title{
+		font-weight: 550;
+		font-size: 32rpx;
+		padding-bottom: 30rpx;
+	}
+	.cont{
+		line-height: 50rpx;
+		padding-bottom: 40rpx;
+		color: #606266;
+	}
+	.dcont{
+		line-height: 50rpx;
+		padding-bottom: 40rpx;
+		color: #df0003;
+	}
+	
+</style>

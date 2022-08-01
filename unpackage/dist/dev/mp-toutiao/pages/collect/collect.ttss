@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tab {
+  position: relative;
+  border-radius: 32rpx;
+  margin-right: 15rpx;
+  margin-bottom: 15rpx;
+}
+.tab image {
+  border-radius: 16rpx;
+}
+.tab .array {
+  position: absolute;
+  top: 15rpx;
+  right: 15rpx;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 4rpx 16rpx;
+  border-radius: 8rpx;
+  font-size: 12px;
+}
+

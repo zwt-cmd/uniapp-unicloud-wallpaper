@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uniad": "/node-modules/@dcloudio/uni-cli-shared/components/uniad"
+  }
+}

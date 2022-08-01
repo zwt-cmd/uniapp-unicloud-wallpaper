@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "find-ad-interstitial-default": "/pages/find/find-ad-interstitial-default",
+    "find-ad-rewarded-video-default": "/pages/find/find-ad-rewarded-video-default",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "ad-interstitial": "/node-modules/@dcloudio/uni-cli-shared/components/ad-interstitial",
+    "ad-rewarded-video": "/node-modules/@dcloudio/uni-cli-shared/components/ad-rewarded-video",
+    "uniad": "/node-modules/@dcloudio/uni-cli-shared/components/uniad",
+    "foo-bar": "/components/fooBar/fooBar",
+    "models": "/components/model/model"
+  }
+}

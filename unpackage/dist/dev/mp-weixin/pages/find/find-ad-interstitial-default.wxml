@@ -1,0 +1,1 @@
+<image style="width:700rpx;height:343rpx;" disabled="{{loading}}" loading="{{loading}}" src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-676f0968-fd33-480e-a7e7-40d1564c0de0/03ed58b7-f37d-469a-89ce-a2e0393692c9.png" class="data-v-408c90a6"></image><block wx:if="{{error}}"><view class="data-v-408c90a6">{{error}}</view></block>

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.vtop.data-v-408c90a6 {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffb821 0, #ffcd33 45%, #ffd833);
+  z-index: 999999;
+  height: 15%;
+}
+.vtop .title.data-v-408c90a6 {
+  position: relative;
+  color: #303030;
+  font-size: 20px;
+  line-height: 80rpx;
+}
+.vtop .fenxiang.data-v-408c90a6 {
+  margin-left: -20rpx;
+  margin-top: -10px;
+}
+.vtop .search.data-v-408c90a6 {
+  width: 55%;
+  background: #F3F4F5;
+  height: 60rpx;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  padding-left: 20rpx;
+  border-radius: 50px;
+  margin-top: 1px;
+}
+.vtop .search text.data-v-408c90a6 {
+  color: #a6a7a8;
+  font-size: 14px;
+}
+.vtop .div1.data-v-408c90a6 {
+  height: 40rpx;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 30px 30px 0px 0px;
+  position: absolute;
+  bottom: 0px;
+}
+.vtop .div2.data-v-408c90a6 {
+  height: 40rpx;
+  width: 92%;
+  background: #ffffffb0;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 5px;
+  left: 4%;
+  right: 6%;
+}
+.vtop .div3.data-v-408c90a6 {
+  height: 40rpx;
+  width: 88%;
+  background: #ffffff59;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 10px;
+  left: 6%;
+  right: 8%;
+}
+.tab.data-v-408c90a6 {
+  background-image: linear-gradient(to top, #50e4c0, #23ccbe);
+  width: 690rpx;
+  height: 300rpx;
+  border-radius: 24rpx;
+}
+

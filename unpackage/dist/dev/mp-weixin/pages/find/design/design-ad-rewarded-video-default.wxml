@@ -1,0 +1,1 @@
+<view class="u-text-center" disabled="{{loading}}" loading="{{loading}}"><u-icon vue-id="54b75e34-3" name="/static/icon/cate.png" size="44" bind:__l="__l"></u-icon><view class="u-font-13">相册</view></view><block wx:if="{{error}}"><view>{{error}}</view></block>

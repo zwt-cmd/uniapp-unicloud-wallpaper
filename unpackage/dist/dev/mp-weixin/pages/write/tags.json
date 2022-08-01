@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "选择标签",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-tag": "/uview-ui/components/u-tag/u-tag"
+  }
+}

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.bottom {
+  position: fixed;
+  left: 4%;
+  right: 0;
+  width: 92%;
+  height: 52px;
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.06);
+  background: rgba(0, 0, 0, 0.94);
+  border-radius: 49px;
+  z-index: 10;
+  opacity: 0.8;
+}
+.bottom .num {
+  position: absolute;
+  top: -20rpx;
+  top: -70rpx;
+  left: 44%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  padding: 4rpx 20rpx;
+  font-size: 12px;
+  border-radius: 36px;
+}
+.nav-tab {
+  position: relative;
+  width: 100%;
+  height: 52px;
+  font-size: 12px;
+  color: #D8D8D8;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-box {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+}
+.openCss {
+  -webkit-animation-name: openLinear;
+          animation-name: openLinear;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  bottom: 3%;
+}
+@-webkit-keyframes openLinear {
+0% {
+    -webkit-transform: translateY(92px);
+            transform: translateY(92px);
+}
+100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+@keyframes openLinear {
+0% {
+    -webkit-transform: translateY(92px);
+            transform: translateY(92px);
+}
+100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+.closeCss {
+  -webkit-animation-name: closeLinear;
+          animation-name: closeLinear;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  bottom: -52px;
+}
+@-webkit-keyframes closeLinear {
+0% {
+    -webkit-transform: translateY(-92px);
+            transform: translateY(-92px);
+}
+100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+@keyframes closeLinear {
+0% {
+    -webkit-transform: translateY(-92px);
+            transform: translateY(-92px);
+}
+100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+}
+.u-indicator-item-number {
+  padding: 6rpx 16rpx;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 100rpx;
+  font-size: 26rpx;
+  color: rgba(255, 255, 255, 0.8);
+}
+.date-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 150rpx;
+  opacity: .9;
+}
+.time {
+  font-size: 120rpx;
+  color: #fff;
+}
+.date {
+  font-size: 40rpx;
+  color: #fff;
+}
+

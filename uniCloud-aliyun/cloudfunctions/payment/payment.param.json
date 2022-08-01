@@ -1,0 +1,7 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{
+	"body": "猫优封面-充值10积分",
+	"open_id": "oGUq55PwhYY0uHhjzJ89bjJiuipk",
+	"total_fee": 100
+}

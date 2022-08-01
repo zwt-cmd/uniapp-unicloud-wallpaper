@@ -1,0 +1,1 @@
+<view class="nav-taba" disabled="{{loading}}" loading="{{loading}}"><u-icon vue-id="3db16520-4" name="/static/icon/duihuan.png" size="{{65}}" bind:__l="__l"></u-icon></view><block wx:if="{{error}}"><view>{{error}}</view></block>

@@ -1,0 +1,24 @@
+{
+  "setting": {
+    "postcss": true,
+    "minified": true
+  },
+  "appid": "tte7359188780bc9d101",
+  "projectname": "壁纸",
+  "condition": {
+    "miniprogram": {
+      "current": 1655531504009,
+      "list": [
+        {
+          "id": 1655531504009,
+          "name": "精选手机壁纸、动漫二次元壁纸、明星创意潮图、抖音网红壁纸~",
+          "pathName": "pages/index/index",
+          "query": "userId=undefined",
+          "scene": "",
+          "launchFrom": "",
+          "location": ""
+        }
+      ]
+    }
+  }
+}

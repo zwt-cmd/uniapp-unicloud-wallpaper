@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.vtop.data-v-57280228 {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffb821 0, #ffcd33 45%, #ffd833);
+  z-index: 999999;
+  height: 15%;
+}
+.vtop .title.data-v-57280228 {
+  position: relative;
+  color: #303030;
+  font-size: 20px;
+  line-height: 80rpx;
+}
+.vtop .fenxiang.data-v-57280228 {
+  margin-left: -20rpx;
+  margin-top: -10px;
+}
+.vtop .search.data-v-57280228 {
+  width: 55%;
+  background: #F3F4F5;
+  height: 60rpx;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  padding-left: 20rpx;
+  border-radius: 50px;
+  margin-top: 1px;
+}
+.vtop .search text.data-v-57280228 {
+  color: #a6a7a8;
+  font-size: 14px;
+}
+.vtop .div1.data-v-57280228 {
+  height: 40rpx;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 30px 30px 0px 0px;
+  position: absolute;
+  bottom: 0px;
+}
+.vtop .div2.data-v-57280228 {
+  height: 40rpx;
+  width: 92%;
+  background: #ffffffb0;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 5px;
+  left: 4%;
+  right: 6%;
+}
+.vtop .div3.data-v-57280228 {
+  height: 40rpx;
+  width: 88%;
+  background: #ffffff59;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 10px;
+  left: 6%;
+  right: 8%;
+}
+.gridSm.data-v-57280228 {
+  margin: 0 -5px;
+  width: auto;
+}
+.g2.data-v-57280228 {
+  width: 50%;
+  padding: 0 5px;
+  margin-bottom: 10px;
+}
+.tab.data-v-57280228 {
+  position: relative;
+  width: 215rpx;
+  height: 350rpx;
+  border-radius: 16rpx;
+  margin-right: 15rpx;
+  margin-bottom: 15rpx;
+}
+.tab image.data-v-57280228 {
+  border-radius: 16rpx;
+}
+.tab .array.data-v-57280228 {
+  position: absolute;
+  top: 18rpx;
+  right: 0rpx;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0rpx 12rpx 0 16rpx;
+  border-radius: 20rpx 0 0 20rpx;
+  font-size: 12px;
+}
+.tags.data-v-57280228 {
+  font-size: 14px;
+  background-color: #F5F6F8;
+  color: #909399;
+  border-radius: 40rpx;
+  line-height: 60rpx;
+  padding: 0 40rpx;
+  margin-right: 20rpx;
+  white-space: nowrap;
+}
+.banner.data-v-57280228 {
+  width: 100%;
+  padding: 0 40rpx;
+}
+.tag-active.data-v-57280228 {
+  background-image: linear-gradient(100deg, #fcfc44, #f8c93c);
+  color: #333333;
+  box-shadow: 0px 0px 10px #fff8ab;
+  -webkit-animation: tiaobig-data-v-57280228 0.8s ease-in-out alternate infinite;
+          animation: tiaobig-data-v-57280228 0.8s ease-in-out alternate infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+@-webkit-keyframes tiaobig-data-v-57280228 {
+0% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+50% {
+    -webkit-transform: scale(0.94);
+            transform: scale(0.94);
+}
+75% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@keyframes tiaobig-data-v-57280228 {
+0% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+50% {
+    -webkit-transform: scale(0.94);
+            transform: scale(0.94);
+}
+75% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+.back.data-v-57280228 {
+  position: fixed;
+  right: -80rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50rpx;
+  padding: 8rpx;
+  box-shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
+  transition-property: right;
+  transition-duration: 0.6s;
+}
+.back image.data-v-57280228 {
+  display: block;
+}
+.back .text.data-v-57280228 {
+  font-size: 12px;
+}
+.backSearch.data-v-57280228 {
+  bottom: 300rpx;
+  background-color: #21222385;
+}
+.backSearch .text.data-v-57280228 {
+  color: #FFFFFF;
+}
+.backTop.data-v-57280228 {
+  bottom: 200rpx;
+  background-color: #f4cc47;
+}
+.backTop .text.data-v-57280228 {
+  color: #fff;
+}
+.backTop_show.data-v-57280228 {
+  right: 20rpx !important;
+}
+.backTop_hide.data-v-57280228 {
+  right: -80rpx !important;
+}
+.m-nav.data-v-57280228 {
+  margin-bottom: 0rpx;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25rpx;
+}
+.m-nav .item.data-v-57280228 {
+  padding: 15rpx 0;
+  flex: 1;
+}
+.m-nav .image-wrap.data-v-57280228 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+.dhs.data-v-57280228 {
+  font-size: 12px;
+  color: #000000;
+  border-radius: 10rpx;
+  line-height: 60rpx;
+  padding: 0 40rpx;
+  margin-right: 20rpx;
+  white-space: nowrap;
+}
+.m-nav .item image.data-v-57280228 {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 auto 30rpx;
+}
+

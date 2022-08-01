@@ -1,0 +1,1 @@
+<view class="btn" disabled="{{loading}}" loading="{{loading}}" hover-class="hover-class" hover-stay-time="50">去签到</view><block wx:if="{{error}}"><view>{{error}}</view></block>

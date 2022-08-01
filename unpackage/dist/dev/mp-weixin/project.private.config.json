@@ -1,0 +1,36 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "我的",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/searchvideo/searchvideo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "分类",
+          "pathName": "pages/center/center",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

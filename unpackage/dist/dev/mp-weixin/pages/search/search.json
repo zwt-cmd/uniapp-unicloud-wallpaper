@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "搜索",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "search": "/components/search/search"
+  }
+}

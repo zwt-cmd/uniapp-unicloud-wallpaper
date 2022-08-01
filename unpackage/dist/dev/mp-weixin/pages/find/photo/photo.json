@@ -1,0 +1,11 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "头像套图",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "photo-ad-rewarded-video-default": "/pages/find/photo/photo-ad-rewarded-video-default",
+    "uniad": "/node-modules/@dcloudio/uni-cli-shared/components/uniad",
+    "ad-rewarded-video": "/node-modules/@dcloudio/uni-cli-shared/components/ad-rewarded-video"
+  }
+}

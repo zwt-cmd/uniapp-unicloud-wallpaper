@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分类管理",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#F7F7F7",
+  "usingComponents": {
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

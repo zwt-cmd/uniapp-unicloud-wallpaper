@@ -1,0 +1,27 @@
+{  
+    "uni_modules": {  
+        "encrypt": [  
+            "uniCloud-aliyun/cloudfunctions/access_token/index.js",
+            "uniCloud-aliyun/cloudfunctions/user_authorize/index.js",
+            "uniCloud-aliyun/cloudfunctions/cash_back/index.js",
+            "uniCloud-aliyun/cloudfunctions/query_del/index.js",
+            "uniCloud-aliyun/cloudfunctions/zan_and_coll/index.js",
+            "uniCloud-aliyun/cloudfunctions/query_edit/index.js",
+            "uniCloud-aliyun/cloudfunctions/place_order/index.js",
+            "uniCloud-aliyun/cloudfunctions/config_map/index.js",
+            "uniCloud-aliyun/cloudfunctions/query_count/index.js",
+            "uniCloud-aliyun/cloudfunctions/query_map/index.js",
+            "uniCloud-aliyun/cloudfunctions/sign_map/index.js",
+            "uniCloud-aliyun/cloudfunctions/query_list/index.js",
+            "uniCloud-aliyun/cloudfunctions/payment/index.js",
+            "uniCloud-aliyun/cloudfunctions/payment/random.js",
+            "uniCloud-aliyun/cloudfunctions/payment/requestData.js",
+            "uniCloud-aliyun/cloudfunctions/cash_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/charge_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/order_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/sign_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/template_add/index.js",
+            "uniCloud-aliyun/cloudfunctions/template/index.js"
+        ]  
+    }  
+}

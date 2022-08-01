@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "标签管理",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-input": "/uview-ui/components/u-input/u-input"
+  }
+}

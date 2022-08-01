@@ -1,0 +1,204 @@
+
+.u8_banner_wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 150rpx!important;
+    padding: 0 20rpx;
+    background: #fff!important;
+    box-shadow: 0 0 7rpx 0 rgba(0,127,255,.5);
+}
+.u8_banner_logo_wrap {
+    width: 100rpx;
+    height: 100rpx;
+    overflow: hidden;
+    margin-right: 30rpx;
+}
+.u8_banner_logo_wrap .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.u8_banner_desc_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+}
+.u8_banner_name {
+    color: #333!important;
+    font-size: 30rpx!important;
+    line-height: 42rpx!important;
+}
+.u8_banner_desc,.u8_banner_name {
+    display: block!important;
+    width: 100%!important;
+    height: auto!important;
+}
+.u8_banner_desc {
+    color: #666!important;
+    font-size: 22rpx!important;
+    line-height: 34rpx!important;
+}
+.u8_banner_button {
+    width: 110rpx!important;
+    height: 52rpx!important;
+    line-height: 52rpx!important;
+    text-align: center;
+    font-size: 22rpx!important;
+    color: #06c;
+    border: 1rpx solid #06c;
+    border-radius: 27rpx;
+}
+.u8_banner_tip {
+    position: absolute;
+    top: 122rpx;
+    right: 0rpx;
+    align-items: center;
+    justify-content: center;
+    width: 120rpx!important;
+    height: 28rpx!important;
+    font-size: 18rpx!important;
+    line-height: 16px!important;
+    color: #fff!important;
+    background: #b7b7b7!important;
+    border-radius: 14rpx 0 0 14rpx;
+}
+.u8_banner_tip,.u8_banner_wrap1 {
+    display: flex;
+}
+.u8_banner_wrap1 {
+    position: relative;
+    width: 100%!important;
+    overflow: hidden;
+}
+.u8_banner_wrap1 .image {
+    width: 100%;
+    margin: 0 auto;
+}
+.u8_insert_wrap {
+    position: fixed;
+    width: 100%!important;
+    height: 100%!important;
+    left: 0;
+    top: 0;
+
+
+    background: rgba(0,0,0,.3);
+    z-index: 9999;
+}
+.u8_insert_content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    left: calc(50% - 255rpx);
+    top: calc(35% - 250rpx);
+    width: 510rpx;
+    height: 600rpx;
+    background: #fff;
+    border-radius: 8rpx;
+}
+.u8_insert_content,.u8_insert_logo {
+    display: flex;
+    justify-content: center;
+}
+.u8_insert_logo {
+    flex-direction: column;
+    align-items: center;
+    margin: 20rpx 0;
+}
+.u8_insert_logo .image {
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 50%;
+}
+.u8_insert_logo .text {
+    font-weight: bolder;
+    font-size: 36rpx!important;
+    color: #333!important;
+    margin-top: 20rpx;
+}
+.u8_insert_desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(0,102,204,.8);
+    color: #fff!important;
+    width: 100%;
+    height: 80rpx;
+    font-size: 24rpx!important;
+    line-height: 40rpx;
+    padding: 20rpx 40rpx;
+}
+.u8_insert_button {
+    width: 280rpx!important;
+    height: 70rpx!important;
+    border: 1px solid #06c;
+    border-radius: 8rpx;
+    font-size: 28rpx!important;
+    color: #06c!important;
+    text-align: center;
+    line-height: 70rpx;
+}
+.u8_insert_close {
+    display: flex;
+    position: relative;
+    left: calc(50% - 35rpx);
+    top: calc(40% - 270rpx);
+}
+.u8_insert_close .image {
+    width: 50rpx!important;
+    height: 50rpx!important;
+    z-index: 2;
+}
+.u8_insert_content1 {
+    position: relative;
+    display: flex;
+    width: 600rpx!important;
+    overflow: hidden;
+    left: calc(50% - 300rpx);
+    top: calc(50% - 250rpx);
+}
+.u8_insert_adimg {
+    width: 100%;
+}
+.u8_insert_close1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 34rpx!important;
+    height: 34rpx!important;
+    padding: 10rpx;
+    z-index: 2;
+}
+.u8_fixed_wrap {
+    position: fixed;
+    display: flex;
+    width: 110rpx!important;
+    height: 110rpx!important;
+    right: 40rpx;
+    bottom: 140rpx;
+    z-index: 9998;
+}
+.u8_fixed_close {
+    position: absolute;
+    top: -10rpx;
+    right: -14rpx;
+    width: 26rpx!important;
+    height: 26rpx!important;
+    z-index: 2;
+}
+.u8_fixed_img {
+    width: 100%;
+    border-radius: 50%;
+}
+.u8AD_nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+

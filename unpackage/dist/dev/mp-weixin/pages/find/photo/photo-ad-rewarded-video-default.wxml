@@ -1,0 +1,1 @@
+<button class="cu-btn bg-pink margin-tb-sm lg" style="width:100%;" disabled="{{loading}}" loading="{{loading}}">下载套图</button><block wx:if="{{error}}"><view>{{error}}</view></block>

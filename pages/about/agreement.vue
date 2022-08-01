@@ -1,0 +1,98 @@
+<template>
+	<view>
+		<view class="u-p-40">
+			<view class="title">1.账号注册</view>
+			<view class="cont">
+				A.您确认，在您开始使用/注册壁zhi库服务前，您应当具备中华人民共和国法律规定的与您行为相适应的民事行为能力。若您不具备前述与您行为相适应的民事行为能力，则应获得监护人的知情同意，您及您的监护人应依照法律规定承担因此而导致的相应的责任。特别地，如果您是未成年人，请在您的监护人的同意和指导下访问和/或使用我方应用服务。
+			</view>
+			<view class="cont">
+				B.由于您的账号关联您的个人信息，因此您的账号仅限您本人使用。
+			</view>
+			<view class="title">2.内容规格</view>
+			<view class="cont">
+				本条所述内容是指用户使用本服务过程中所制作、上载、复制、发布、传播的任何内容；如果用户违反以下规定，我方有权在不通知用户的情况下，禁止其账号的使用：
+			</view>
+			<view class="cont">
+				用户不得利用发布传播禁止的内容：
+			</view>
+			<view class="cont">
+				反对宪法所确定的基本原则的；
+			</view>
+			<view class="cont">
+				危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；
+			</view>
+			<view class="cont">
+				损害国家荣誉和利益的；
+			</view>
+			<view class="cont">
+				煽动民族仇恨、民族歧视，破坏民族团结的；破坏国家宗教政策，宣扬邪教和封建迷信的；散布谣言，扰乱社会秩序，破坏社会稳定的；
+			</view>
+			<view class="cont">
+				散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+			</view>
+			<view class="cont">
+				侮辱或者诽谤他人，侵害他人合法权益的；
+			</view>
+			<view class="cont">
+				不遵守法律法规底线、社会主义制度底线、国家利益底线、公民合法权益底线、社会公共秩序底线、道德风尚底线和信息真实性底线的“七条底线”要求的；
+			</view>
+			<view class="cont">
+				含有法律、行政法规禁止的其他内容的信息。
+			</view>
+			<view class="cont">
+				用户不得发布传播侵犯其他用户或第三方合法权益的内容：
+			</view>
+			<view class="cont">
+				含有任何性或性暗示的；
+			</view>
+			<view class="cont">
+				含有辱骂、恐吓、威胁内容的；
+			</view>
+			<view class="cont">
+				含有骚扰、垃圾广告、恶意信息、诱骗信息的；涉及他人隐私、个人信息或资料的；
+			</view>
+			<view class="cont">
+				侵害他人名誉权、肖像权、知识产权、商业秘密等合法权利的；
+			</view>
+			<view class="cont">
+				含有其他干扰本服务正常运营和侵犯其他用户或第三方合法权益内容的信息。
+			</view>
+			<view class="title">3.知识产品声明</view>
+			<view class="cont">
+				上传作品时，请尽量注明注册并且请确保该封面图片可以被上传；
+			</view>
+			<view class="cont">
+				如果封面存在版权问题，壁zhi库官方有权在不告知您的情况下删除封面；
+			</view>
+			<view class="cont">
+				当您上传封面后，壁zhi库官方可能会在不告知您的情况下以署名的形式将封面发布到其他渠道，比如微信公众号等
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+	.title{
+		font-weight: 550;
+		font-size: 32rpx;
+		padding-bottom: 30rpx;
+	}
+	.cont{
+		line-height: 50rpx;
+		padding-bottom: 40rpx;
+		color: #606266;
+	}
+</style>

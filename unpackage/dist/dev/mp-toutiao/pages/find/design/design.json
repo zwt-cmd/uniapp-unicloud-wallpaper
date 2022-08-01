@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "刘海壁纸",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "default",
+  "disableScroll": true,
+  "usingComponents": {
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "models": "/components/model/model"
+  }
+}

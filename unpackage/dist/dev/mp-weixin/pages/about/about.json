@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "uniad": "/node-modules/@dcloudio/uni-cli-shared/components/uniad"
+  }
+}

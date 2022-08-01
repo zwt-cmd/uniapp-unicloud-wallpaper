@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "管理后台",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-icon": "/uview-ui/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,1 @@
+<view><u-button vue-id="499e0fa2-1" loading="{{loading}}" data-event-opts="{{[['^click',[['showInterstitialAd']]]]}}" bind:click="__e" bind:__l="__l" vue-slots="{{['default']}}">显示广告</u-button></view>

@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.vtop.data-v-2fc1a426 {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(90deg, #ffb821 0, #ffcd33 45%, #ffd833);
+  z-index: 999999;
+  height: 15%;
+}
+.vtop .title.data-v-2fc1a426 {
+  position: relative;
+  color: #303030;
+  font-size: 20px;
+  line-height: 80rpx;
+}
+.vtop .fenxiang.data-v-2fc1a426 {
+  margin-left: -20rpx;
+  margin-top: -10px;
+}
+.vtop .search.data-v-2fc1a426 {
+  width: 55%;
+  background: #F3F4F5;
+  height: 60rpx;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  padding-left: 20rpx;
+  border-radius: 50px;
+  margin-top: 1px;
+}
+.vtop .search text.data-v-2fc1a426 {
+  color: #a6a7a8;
+  font-size: 14px;
+}
+.vtop .div1.data-v-2fc1a426 {
+  height: 40rpx;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 30px 30px 0px 0px;
+  position: absolute;
+  bottom: 0px;
+}
+.vtop .div2.data-v-2fc1a426 {
+  height: 40rpx;
+  width: 92%;
+  background: #ffffffb0;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 5px;
+  left: 4%;
+  right: 6%;
+}
+.vtop .div3.data-v-2fc1a426 {
+  height: 40rpx;
+  width: 88%;
+  background: #ffffff59;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 10px;
+  left: 6%;
+  right: 8%;
+}
+.ranking .tab.data-v-2fc1a426 {
+  width: 225rpx;
+  height: 100rpx;
+  border-radius: 12rpx;
+  color: #FFFFFF;
+}
+.ranking .tab .eng.data-v-2fc1a426 {
+  color: #F5F5F5;
+}
+.ranking .tab.data-v-2fc1a426:nth-child(1) {
+  background-image: linear-gradient(to bottom right, #8acfaf, #5FBB92, #5FBB92, #8acfaf);
+  margin-right: 10rpx;
+}
+.ranking .tab.data-v-2fc1a426:nth-child(2) {
+  background-image: linear-gradient(to bottom right, #f0d35c, #F0B347, #F0B347, #f0d35c);
+  margin-right: 10rpx;
+}
+.ranking .tab.data-v-2fc1a426:nth-child(3) {
+  background-image: linear-gradient(to bottom right, #8c99de, #836AF0, #836AF0, #8c99de);
+}
+.tags .tag.data-v-2fc1a426 {
+  font-size: 14px;
+  background-color: #F5F6F8;
+  color: #909399;
+  border-radius: 10rpx;
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  width: auto;
+  text-align: center;
+  margin-right: 10rpx;
+  margin-bottom: 12rpx;
+}
+.tags .tag.data-v-2fc1a426:nth-child(1) {
+  background-color: #d9f2fb;
+  color: #1aa9fb;
+}
+.tags .tag.data-v-2fc1a426:nth-child(2) {
+  background-color: #d9fcda;
+  color: #3ab14a;
+}
+.tags .tag.data-v-2fc1a426:nth-child(3) {
+  background-color: #fff3d0;
+  color: #f67c23;
+}
+.tags .tag.data-v-2fc1a426:nth-child(4) {
+  background-color: #f8cbff;
+  color: #a123db;
+}
+.tags .tag.data-v-2fc1a426:nth-child(5) {
+  background-color: #bbf1f2;
+  color: #04839d;
+}
+.tags .tag.data-v-2fc1a426:nth-child(6) {
+  background-color: #ffdede;
+  color: #e84f4f;
+}
+.tags .tag.data-v-2fc1a426:nth-child(7) {
+  background-color: #d9fcda;
+  color: #3ab14a;
+}
+.tags .tag.data-v-2fc1a426:nth-child(8) {
+  background-color: #d9f2fb;
+  color: #1aa9fb;
+}
+.tags .tag.data-v-2fc1a426:nth-child(9) {
+  background-color: #ffdede;
+  color: #e84f4f;
+}
+.tags .tag.data-v-2fc1a426:nth-child(10) {
+  background-color: #f8cbff;
+  color: #a123db;
+}
+.tags .tag.data-v-2fc1a426:nth-child(11) {
+  background-color: #fff3d0;
+  color: #f67c23;
+}
+.tags .tag.data-v-2fc1a426:nth-child(12) {
+  background-color: #bbf1f2;
+  color: #04839d;
+}
+.tags .tag.data-v-2fc1a426:nth-child(13) {
+  background-color: #bbf1f2;
+  color: #3ab14a;
+}
+.tags .tag.data-v-2fc1a426:nth-child(14) {
+  background-color: #ffdede;
+  color: #e84f4f;
+}
+.tags .tag.data-v-2fc1a426:nth-child(15) {
+  background-color: #d9fcda;
+  color: #3ab14a;
+}
+.category .cate.data-v-2fc1a426 {
+  position: relative;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+  margin-bottom: 20rpx;
+}
+.category .cate image.data-v-2fc1a426 {
+  display: block;
+  width: 325rpx;
+  height: 160rpx;
+  border-radius: 12rpx;
+}
+.category .cate .texts.data-v-2fc1a426 {
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+  color: #FFFFFF;
+}
+.cate-active.data-v-2fc1a426 {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  transition: all 0.2s;
+}
+

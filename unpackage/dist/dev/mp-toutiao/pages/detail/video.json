@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "动态",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "default",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

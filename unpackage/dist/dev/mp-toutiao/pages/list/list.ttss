@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.menu {
+  position: fixed;
+  left: 0;
+  width: calc(100% - 60rpx);
+  z-index: 99;
+  background-color: #FFFFFF;
+}
+.menus {
+  position: fixed;
+  left: 0;
+  z-index: 99;
+  background-color: #FFFFFF;
+}
+.tags {
+  font-size: 14px;
+  background-color: #F5F6F8;
+  color: #909399;
+  border-radius: 40rpx;
+  margin-right: 20rpx;
+  line-height: 50rpx;
+  padding: 0 40rpx;
+  white-space: nowrap;
+}
+.tag-active {
+  background-image: linear-gradient(100deg, #fcfc44, #f8c93c);
+  color: #333333;
+  box-shadow: 0px 0px 10px #fff8ab;
+  -webkit-animation: tiaobig 0.8s ease-in-out alternate infinite;
+          animation: tiaobig 0.8s ease-in-out alternate infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+@-webkit-keyframes tiaobig {
+0% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+50% {
+    -webkit-transform: scale(0.94);
+            transform: scale(0.94);
+}
+75% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@keyframes tiaobig {
+0% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+}
+25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+50% {
+    -webkit-transform: scale(0.94);
+            transform: scale(0.94);
+}
+75% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+.tab {
+  position: relative;
+  width: 215rpx;
+  height: 350rpx;
+  border-radius: 16rpx;
+  margin-right: 15rpx;
+  margin-bottom: 15rpx;
+}
+.tab image {
+  border-radius: 16rpx;
+  display: block;
+}
+.tab .array {
+  position: absolute;
+  top: 18rpx;
+  right: 0rpx;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0rpx 12rpx 0 16rpx;
+  border-radius: 20rpx 0 0 20rpx;
+  font-size: 12px;
+}
+.back {
+  position: fixed;
+  right: -80rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50rpx;
+  padding: 8rpx;
+  box-shadow: 0 0px 16px rgba(0, 0, 0, 0.2);
+  transition-property: right;
+  transition-duration: 0.6s;
+}
+.back image {
+  display: block;
+}
+.back .text {
+  font-size: 14px;
+}
+.backSearch {
+  bottom: 200rpx;
+  background-color: #21222385;
+}
+.backSearch .text {
+  color: #FFFFFF;
+}
+.backTop {
+  bottom: 100rpx;
+  background-color: #f4cc47;
+}
+.backTop .text {
+  color: #fff;
+}
+.backTop_show {
+  right: 20rpx !important;
+}
+.backTop_hide {
+  right: -80rpx !important;
+}
+

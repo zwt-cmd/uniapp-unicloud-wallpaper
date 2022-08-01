@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.top image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.top .kapian {
+  height: 240rpx;
+  margin: -60rpx 40rpx 0 40rpx;
+  background: linear-gradient(to bottom right, #6cb3ff, #866bf1);
+  color: #ffffff;
+  border-radius: 36rpx;
+  box-shadow: 0px 10px 20px #a2beff;
+}
+.top .kapian .price {
+  font-size: 32px;
+  font-weight: 700;
+}
+.top .kapian .shuom {
+  color: #e5e5e5;
+}
+.title {
+  border-left: 6rpx solid #648af1;
+  padding-left: 15rpx;
+  line-height: 34rpx;
+  color: #808080;
+}
+.tab .icon {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+}
+.tab .btn {
+  position: relative;
+  background-image: linear-gradient(to right, #fcfc44, #f8c93c);
+  padding: 7px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.tab .hover-class {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  transition: all 0.2s;
+}
+.tab:nth-child(1) .icon {
+  background-image: linear-gradient(to right, #f5d553, #f0b347);
+}
+.tab:nth-child(2) .icon {
+  background-image: linear-gradient(to right, #84d787, #5fbb92);
+}
+.tab:nth-child(3) .icon {
+  background-image: linear-gradient(to right, #6cb3ff, #5476f1);
+}
+.tab:nth-child(4) .icon {
+  background-image: linear-gradient(to right, #fa7a09, #ee6000);
+}
+

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "用户管理",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}

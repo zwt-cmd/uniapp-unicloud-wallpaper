@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "user-ad-rewarded-video-default": "/pages/user/user-ad-rewarded-video-default",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "ad-rewarded-video": "/node-modules/@dcloudio/uni-cli-shared/components/ad-rewarded-video",
+    "foo-bar": "/components/fooBar/fooBar",
+    "models": "/components/model/model"
+  }
+}

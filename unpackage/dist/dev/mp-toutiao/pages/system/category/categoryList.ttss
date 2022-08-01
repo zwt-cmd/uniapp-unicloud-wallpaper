@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page {
+  background-color: #F7F7F7;
+}
+.tab {
+  background-color: #FFFFFF;
+  width: calc(50% - 20rpx);
+  margin: 10rpx;
+  border-radius: 8rpx;
+}
+.tags_ {
+  font-size: 12px;
+  color: #909399;
+  border: 1rpx solid #B8B8B8;
+  border-radius: 8rpx;
+  line-height: 46rpx;
+  padding: 0 20rpx;
+}
+.tag-active_ {
+  background-image: linear-gradient(100deg, #fcfc44, #f8c93c);
+  color: #3a1800;
+  -webkit-animation: tiaobig 0.8s ease-in-out alternate infinite;
+          animation: tiaobig 0.8s ease-in-out alternate infinite;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  border: none;
+}
+.border-bottom {
+  border-bottom: 1rpx solid #F3F4F6;
+}
+.banner_img {
+  width: 100%;
+  height: 160rpx;
+  margin: 15rpx 15rpx 0 15rpx;
+  border-radius: 8rpx;
+}
+.add {
+  -webkit-animation: tiaobig 1.5s ease-in-out alternate infinite;
+          animation: tiaobig 1.5s ease-in-out alternate infinite;
+  background-color: #FFFFFF;
+  position: fixed;
+  bottom: 140rpx;
+  right: 30rpx;
+  border-radius: 120rpx;
+  width: 90rpx;
+  height: 90rpx;
+  box-shadow: 0px 1px 8px #C8C8C8;
+}
+.add image {
+  width: 90rpx;
+  height: 90rpx;
+}
+@-webkit-keyframes tiaobig {
+0% {
+    -webkit-transform: scale(0.92);
+            transform: scale(0.92);
+}
+25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+50% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+}
+75% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+}
+100% {
+    -webkit-transform: scale(0.94);
+            transform: scale(0.94);
+}
+}
+@keyframes tiaobig {
+0% {
+    -webkit-transform: scale(0.92);
+            transform: scale(0.92);
+}
+25% {
+    -webkit-transform: scale(1.08);
+            transform: scale(1.08);
+}
+50% {
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+}
+75% {
+    -webkit-transform: scale(1.06);
+            transform: scale(1.06);
+}
+100% {
+    -webkit-transform: scale(0.94);
+            transform: scale(0.94);
+}
+}
+

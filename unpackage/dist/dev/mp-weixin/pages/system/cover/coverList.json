@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "作品管理",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet",
+    "models": "/components/model/model"
+  }
+}

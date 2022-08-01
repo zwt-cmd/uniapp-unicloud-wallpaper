@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "刘海壁纸",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "usingComponents": {
+    "design-ad-rewarded-video-default": "/pages/find/design/design-ad-rewarded-video-default",
+    "design-ad-rewarded-video-default1": "/pages/find/design/design-ad-rewarded-video-default1",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "ad-rewarded-video": "/node-modules/@dcloudio/uni-cli-shared/components/ad-rewarded-video",
+    "models": "/components/model/model"
+  }
+}

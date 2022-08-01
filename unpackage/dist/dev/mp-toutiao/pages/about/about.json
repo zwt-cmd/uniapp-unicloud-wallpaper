@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "default",
+  "usingComponents": {
+    "u-navbar": "/uview-ui/components/u-navbar/u-navbar"
+  }
+}

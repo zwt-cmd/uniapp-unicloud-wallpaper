@@ -1,0 +1,12 @@
+
+.title{
+	font-weight: 550;
+	font-size: 32rpx;
+	padding-bottom: 30rpx;
+}
+.cont{
+	line-height: 50rpx;
+	padding-bottom: 40rpx;
+	color: #606266;
+}
+

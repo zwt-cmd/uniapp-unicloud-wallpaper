@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "系统配置",
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#F7F7F7",
+  "usingComponents": {
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-action-sheet": "/uview-ui/components/u-action-sheet/u-action-sheet"
+  }
+}
